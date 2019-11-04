@@ -2,3 +2,5 @@
 *.class
 *.ser
 scratch/
+.idea/
+*.iml
