@@ -6,7 +6,6 @@ import controller.TopFile.NamdPsfLoader;
 import controller.TopFile.TopologyFile;
 import gui.MainGUI;
 import gui.ProgressWindow;
-import ucar.ma2.InvalidRangeException;
 import java.util.ArrayList;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -57,7 +56,7 @@ public class ConsoleController {
     private static boolean postBoxOpen = false;
 
     //Main thread should run for the duration of the program.
-    public static void main(String[] args) throws ProteinPrepToolException, InvalidRangeException, InterruptedException {
+    public static void main(String[] args) throws ProteinPrepToolException, InterruptedException {
 
 
         //logger class (Basic Stringbuilder wrapper)
