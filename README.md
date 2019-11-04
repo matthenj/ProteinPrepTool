@@ -16,3 +16,4 @@ Compatible file formats:
 
 Known Current Limitations
 - Configure window not working: This means it is not possible to skip steps during processing. The intention is to allow the user to customise the extent of PPTs processing: If they already have the protein eigenvalues available, there is no sense in performing the computation again. 
+- Sometimes the application does not exit on completion. Some thread stuff going on here.
